@@ -12,7 +12,7 @@ const Particle = () => {
             detectsOn: 'canvas',
             events: {
               onClick: {
-                enable: true,
+                enable: false,
                 mode: 'push',
               },
 

@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  AiOutlineSkype,
-  AiOutlineFacebook,
-  AiOutlineLinkedin,
-  AiOutlineGithub,
-} from 'react-icons/ai';
+
+import { FaFacebookSquare, FaSkype, FaLinkedin, FaGithub } from 'react-icons/fa';
 import Particle from '../../components/Particle';
 import avatar from '../../img/avatar.png';
 const Home = () => {
@@ -19,22 +15,22 @@ const Home = () => {
         <ul className='social-icons'>
           <li>
             <a href='#'>
-              <AiOutlineFacebook />
+              <FaFacebookSquare />
             </a>
           </li>
           <li>
             <a href='#'>
-              <AiOutlineSkype />
+              <FaSkype />
             </a>
           </li>
           <li>
             <a href='#'>
-              <AiOutlineLinkedin />
+              <FaLinkedin />
             </a>
           </li>
           <li>
             <a href='#'>
-              <AiOutlineGithub />
+              <FaGithub />
             </a>
           </li>
         </ul>
