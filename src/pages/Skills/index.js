@@ -5,7 +5,7 @@ const Skills = () => {
     <div className='container'>
       <h2>Skills</h2>
       <div className='row'>
-        <div className='col-md-4'>
+        <div className='col-xl-4 col-lg-12 '>
           <div
             className='skill-box'
             style={{
@@ -23,12 +23,12 @@ const Skills = () => {
             <h5>Frameworks &amp; Libraries</h5>
             <ul>
               <li>ReactJS / Redux / NodeJS</li>
-              <li>Bootstrap/ Ant design/ Md design</li>
+              <li>Bootstrap/ Ant design/ Material ui</li>
               <li>Resful API / Json / XML</li>
             </ul>
           </div>
         </div>
-        <div className='col-md-4'>
+        <div className='col-xl-4 col-lg-12 '>
           <div
             className='skill-box'
             style={{
@@ -53,7 +53,7 @@ const Skills = () => {
             </ul>
           </div>
         </div>
-        <div className='col-md-4'>
+        <div className='col-xl-4 col-lg-12 '>
           <div
             className='skill-box'
             style={{

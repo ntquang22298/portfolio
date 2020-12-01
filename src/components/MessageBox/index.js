@@ -4,24 +4,24 @@ import avatar from '../../img/avatar1.jpg';
 const MessageBox = () => {
   return (
     <div className='row'>
-      <div className='col-md-4' style={{ marginTop: 60, textAlign: 'center' }}>
+      <div className='col-lg-4' style={{ marginTop: 60, textAlign: 'center' }}>
         <img className='avatar' src={avatar} alt='avatar' />
       </div>
-      <div className='col-md-8' style={{ marginTop: 60 }}>
+      <div className='col-lg-8' style={{ marginTop: 60 }}>
         <div className='card'>
           <div className='row'>
-            <div className='col-md-6'>
+            <div className='col-xl-6 '>
               <p>
                 I am Quang, a front end and blockchain developer from Hanoi, Vietnam. I have rich
                 experience in web site building and customization.
               </p>
-              <div className='mt-4'>
+              <div className='mt-4' style={{ textAlign: 'center' }}>
                 <a className='btn' href='https://www.linkedin.com/in/quang-nguyen-a201b3191/'>
                   My LinkedIn
                 </a>
               </div>
             </div>
-            <div className='col-md-6'>
+            <div className='col-xl-6'>
               <h4>Team work</h4>
               <div className='progress'>
                 <div
