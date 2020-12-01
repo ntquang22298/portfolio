@@ -69,7 +69,7 @@ const Skills = () => {
             <ul>
               <li>Good understanding about OOP, SOLID principles</li>
               <li>Good understanding about the Agile and Scrum process</li>
-              <li>Good time management, presentation and teamwork skills ...</li>
+              <li>Good time management, presentation and teamwork skills</li>
             </ul>
           </div>
         </div>

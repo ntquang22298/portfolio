@@ -9,17 +9,16 @@ const Works = () => {
       <div className='row'>
         <div className='col-md-4 '>
           <div className='card'>
-            <img src={ecopet} alt='ecopet' />
+            <a href='https://news.sun-asterisk.com/vi/p/vuot-qua-nhieu-doi-thu-tren-the-gioi-sun-tiep-tuc-chien-thang-tai-torus-hackathon-nhan-giai-thuong-4000-usd-RO6dG5dVNyx'>
+              <img src={ecopet} alt='ecopet' />
+            </a>
           </div>
         </div>
         <div className='col-md-4 '>
           <div className='card'>
-            <img src={quiz} alt='ecopet' />
-          </div>
-        </div>
-        <div className='col-md-4 '>
-          <div className='card'>
-            <img src={ecopet} alt='ecopet' />
+            <a href='https://quiz-291707.web.app/home'>
+              <img src={quiz} alt='ecopet' />
+            </a>
           </div>
         </div>
       </div>

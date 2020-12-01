@@ -35,7 +35,7 @@ const Sidebar = () => {
           <li>
             <a href='#works'>
               <FaSitemap />
-              Work
+              Works
             </a>
           </li>
         </ul>

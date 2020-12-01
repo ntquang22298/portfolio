@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaFacebookSquare, FaSkype, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebookSquare, FaLinkedin, FaGithub } from 'react-icons/fa';
 import Particle from '../../components/Particle';
 import avatar from '../../img/avatar.png';
 const Home = () => {
@@ -9,33 +9,32 @@ const Home = () => {
       <div className='intro'>
         <img alt='avatar' className='avatar' src={avatar} />
         <h1>Nguyễn Tuấn Quang</h1>
-        <span>
+        <div className='vertical-flip'>
           I'm a <span>Front-end developer</span>
-        </span>
+          <span>Blockchain developer</span>
+        </div>
+
         <ul className='social-icons'>
           <li>
-            <a href='#'>
+            <a href='https://www.facebook.com/tuanquang.nguyen.16/'>
               <FaFacebookSquare />
             </a>
           </li>
           <li>
-            <a href='#'>
-              <FaSkype />
-            </a>
-          </li>
-          <li>
-            <a href='#'>
+            <a href='https://www.linkedin.com/in/quang-nguyen-a201b3191/'>
               <FaLinkedin />
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://github.com/ntquang22298'>
               <FaGithub />
             </a>
           </li>
         </ul>
         <div className='mt-4'>
-          <a className='btn'>My CV</a>
+          <a className='btn' href='https://www.topcv.vn/xem-cv/5683a18a8d25de6854692ed761d06666'>
+            My CV
+          </a>
         </div>
       </div>
       <Particle />
