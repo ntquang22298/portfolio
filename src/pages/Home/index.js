@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FaFacebookSquare, FaLinkedin, FaGithub } from 'react-icons/fa';
 import Particle from '../../components/Particle';
-import avatar from '../../img/avatar.png';
+import avatar from '../../img/avatar.jpg';
 const Home = () => {
   return (
     <div className='container'>

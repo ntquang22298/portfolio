@@ -5,7 +5,7 @@ const MessageBox = () => {
   return (
     <div className='row'>
       <div className='col-lg-4' style={{ marginTop: 60, textAlign: 'center' }}>
-        <img className='avatar' src={avatar} alt='avatar' />
+        <img className='avatar' src={avatar} alt='avatar' loading='lazy' />
       </div>
       <div className='col-lg-8' style={{ marginTop: 60 }}>
         <div className='card'>
